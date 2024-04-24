@@ -1,0 +1,36 @@
+body{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 30px;
+}
+input{
+  height: 40px;
+  width: 250px;
+  font-size: 20px;
+}
+.js-input,.dic{
+  display: grid;
+  grid-template-columns: 300px 300px 200px;
+  row-gap: 20px;
+  align-items: center;
+}
+.js-input{
+  margin-bottom: 20px;
+  align-items: stretch;
+}
+.addbutton{
+  background-color: rgb(68, 139, 68);
+  padding: 6px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-size: 15px;
+}
+.deletebutton{
+  background-color: rgb(182, 65, 65);
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-size: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
